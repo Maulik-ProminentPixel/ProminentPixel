@@ -1,4 +1,5 @@
 import React from 'react'
+import CountUp from 'react-countup'
 import './Achievement.css'
 import img1 from '../../assets/asset43.svg'
 import img2 from '../../assets/asset28.svg'
@@ -19,28 +20,28 @@ const Achivement = () => {
                 <div className="lines-of-code">
                     <img src={img1} alt="linesofcode" />
                     <div className="lines-number">
-                        <h2>3416K</h2>
+                        <h2><CountUp end={3416} duration={10} />K</h2>
                         <p>LINES OF CODE</p>
                     </div>
                 </div>
                 <div className="lines-of-code">
                     <img src={img2} alt="linesofcode" />
                     <div className="lines-number">
-                        <h2>4579</h2>
+                        <h2><CountUp end={4579} duration={10} /></h2>
                         <p>CUPS OF COFFEE</p>
                     </div>
                 </div>
                 <div className="lines-of-code">
                     <img src={img3} alt="linesofcode" />
                     <div className="lines-number">
-                        <h2>229</h2>
+                        <h2><CountUp end={229} duration={10} /></h2>
                         <p>FINISHED PROJECTS</p>
                     </div>
                 </div>
                 <div className="lines-of-code">
                     <img src={img4} alt="linesofcode" />
                     <div className="lines-number">
-                        <h2>148</h2>
+                        <h2><CountUp end={148} duration={10} /></h2>
                         <p>SATISFIED CLIENTS</p>
                     </div>
                 </div>
